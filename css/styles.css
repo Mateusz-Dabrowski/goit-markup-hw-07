@@ -834,6 +834,7 @@ input {
   margin-bottom: 30px;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .wrapper {
