@@ -56,10 +56,13 @@ input {
   display: flex;
   flex-direction: column;
 }
-.header .container {
+.header-item .container {
   display: flex;
   justify-content: space-between;
+}
+.header {
   border-bottom: 1px solid #ececec;
+  width: 100%;
 }
 .hero .container {
   display: flex;
@@ -426,7 +429,7 @@ input {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url('../images/hero/hero.jpg');
+    url('../images/hero/Img.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -680,6 +683,7 @@ input {
   margin-bottom: 30px;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 .examples__item:hover,
 .examples__item:focus {
